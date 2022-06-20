@@ -3,16 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.proheath.testscripts.TC_002_AdjustmentCodeTable">
+      <class name="com.proheath.testscripts.TC_003_Security$TC_001_DomainValues">
         <methods>
           <include name="setUp"/>
-          <include name="dashBoard"/>
-          <include name="ajustmentcode"/>
-          <include name="logintest"/>
           <include name="teardown"/>
-          <include name="postlogin"/>
+          <include name="user"/>
         </methods>
-      </class> <!-- com.proheath.testscripts.TC_002_AdjustmentCodeTable -->
+      </class> <!-- com.proheath.testscripts.TC_003_Security$TC_001_DomainValues -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
